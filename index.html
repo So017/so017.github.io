@@ -1,26 +1,33 @@
 <!DOCTYPE HTML>
-<!--
-	
--->
-<html>
+<html lang="en">
 	<head>
-		<title>Sonia the Data Analyst</title>
-		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta property="og:image" content="images/portfoliothumbnail.png"/>
+		<title>Sonia Leung | Data Analyst</title>
+		<meta name="description" content="Portfolio of Sonia Leung, a data analyst specialising in Python, SQL, R and Tableau data storytelling projects." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:image" content="images/portfoliothumbnail.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+		<link rel="shortcut icon" href="favicon_io/favicon.ico" />
+		<link rel="manifest" href="favicon_io/site.webmanifest" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a  class="image avatar"><img src="images/avatar2.jpg"></a>
-					<h1><strong>SONIA LEUNG<br> Data Analyst | Problem Solver</strong><br>
-					<p>A Passion for Data Discovery<br></p>
-					<strong><a href="#tag_project">PROJECTS</a><br>
-					<a href="aboutme.html">MY STORY</a></strong></h1>
+					<div id="header-brand">
+						<p class="eyebrow">Data Analyst &bull; Problem Solver</p>
+						<h1>Sonia Leung</h1>
+						<p class="tagline">A Passion for Data Discovery</p>
+					</div>
+					<nav class="header-nav">
+						<a href="#tag_project" class="is-active">Projects</a>
+						<a href="aboutme.html">My Story</a>
+					</nav>
 				</div>
 			</header>
 
@@ -32,67 +39,170 @@
 						<header class="major">
 							<h3>Data-Driven Solutions for Your Business</h3>
 						</header>
-						<p style="color: navy;">As a data analyst, I’m passionate about turning complex data into clear, compelling stories. 
-							With expertise in Python, SQL, and Tableau, I’ll help uncover meaningful insights tailored to your business. 
-							Let's work together to turn your data into a powerful tool for driving success!</p>
+						<p>As a data analyst, I&rsquo;m passionate about turning complex data into clear, compelling stories.
+							With expertise in Python, SQL, and Tableau, I&rsquo;ll help uncover meaningful insights tailored to your business.
+							Let&rsquo;s work together to turn your data into a powerful tool for driving success!</p>
 						<ul class="actions">
-							<li><a href="aboutme.html" class="button">More About Me</a></li>
+							<li><a href="aboutme.html" class="button primary">More About Me</a></li>
 						</ul>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
-						<h2><div id="tag_project">Projects</div></h2>
-						<div class="row"  style="color: navy;">
+						<h2 id="tag_project">Projects</h2>
+						<div class="row project-grid">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/nhs.png" class="image fit thumb"><img src="images/thumbs/pills_t.png" alt="" /></a>
-								<h3>NHS Antidepressants Analysis</h3>
-								<h3  style="color: navy;"><a href="https://www.kaggle.com/code/so017c/nhs-antidepressants-analysis" target="_blank">⋅ View Full Analysis in Python ></a></h3>
-								<p>Skills: EDA, Data Cleaning, Visualization, Python</p>																	
-							</article>							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/londonhouse.png" class="image fit thumb"><img src="images/thumbs/londonhouse_t.png" alt="" /></a>
-								<h3>Storytelling with London Housing Data</h3>
-								<h3  style="color: navy;"><a href="https://public.tableau.com/app/profile/so017/viz/DS55LondonHousingData/Dashboard" target="_blank">View Tableau Dashboard</a></h3>
-								<p>Skills: Storytelling, Visualization, Tableau</p>						
+								<a href="#" class="image fit thumb"
+									data-summary-trigger
+									data-title="NHS Antidepressants Analysis"
+									data-skills="EDA &middot; Data Cleaning &middot; Power BI &middot; Python"
+									data-modal-template="tpl-nhs"
+									data-link="https://www.kaggle.com/code/so017c/nhs-antidepressants-analysis">
+									<img src="images/thumbs/pills_t.png" alt="NHS Antidepressants Analysis thumbnail" />
+								</a>
+								<h3><button type="button" class="work-title-trigger"
+									data-summary-trigger
+									data-title="NHS Antidepressants Analysis"
+									data-skills="EDA &middot; Data Cleaning &middot; Visualization &middot; Python"
+									data-modal-template="tpl-nhs"
+									data-link="https://www.kaggle.com/code/so017c/nhs-antidepressants-analysis">NHS Antidepressants Analysis</button></h3>
+								<p class="skills">Skills: EDA, Data Cleaning, Power BI, Python</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/fitbit.png" class="image fit thumb"><img src="images/thumbs/fitbit_t.png" alt="" /></a>
-								<h3>Customer Behavior Analysis with Fitbit Data</h3>
-								<h3  style="color: navy;"><a href="https://www.kaggle.com/code/so017c/bellabeat-data-analysis-case-study" target="_blank">View Complete Analysis in R</a></h3>
-								<p>Skills: EDA, Data Cleaning, Visualization, R</p>									
+								<a href="#" class="image fit thumb"
+									data-summary-trigger
+									data-title="Storytelling with London Housing Data"
+									data-skills="Storytelling &middot; Visualization &middot; Tableau"
+									data-modal-template="tpl-londonhouse"
+									data-link="https://public.tableau.com/app/profile/so017/viz/DS55LondonHousingData/Dashboard">
+									<img src="images/thumbs/londonhouse_t.png" alt="London Housing Data dashboard thumbnail" />
+								</a>
+								<h3><button type="button" class="work-title-trigger"
+									data-summary-trigger
+									data-title="Storytelling with London Housing Data"
+									data-skills="Storytelling &middot; Visualization &middot; Tableau"
+									data-modal-template="tpl-londonhouse"
+									data-link="https://public.tableau.com/app/profile/so017/viz/DS55LondonHousingData/Dashboard">Storytelling with London Housing Data</button></h3>
+								<p class="skills">Skills: Storytelling, Visualization, Tableau</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/sql.png" class="image fit thumb"><img src="images/thumbs/movie_t.png" alt="" /></a>
-								<h3>Exploring IMDB Top 1000 Movies</a></h3>
-								<h3 style="color: navy;"><a href="https://github.com/So017/241016_sql_project_imdb" target="_blank">View SQL Query</a></h3>
-								<p>Skills: EDA, Data Cleaning, SQL </p>
-																	
+								<a href="#" class="image fit thumb"
+									data-summary-trigger
+									data-title="Customer Behavior Analysis with Fitbit Data"
+									data-skills="EDA &middot; Data Cleaning &middot; Visualization &middot; R"
+									data-modal-template="tpl-fitbit"
+									data-link="https://www.kaggle.com/code/so017c/bellabeat-data-analysis-case-study">
+									<img src="images/thumbs/fitbit_t.png" alt="Fitbit customer behaviour analysis thumbnail" />
+								</a>
+								<h3><button type="button" class="work-title-trigger"
+									data-summary-trigger
+									data-title="Customer Behavior Analysis with Fitbit Data"
+									data-skills="EDA &middot; Data Cleaning &middot; Visualization &middot; R"
+									data-modal-template="tpl-fitbit"
+									data-link="https://www.kaggle.com/code/so017c/bellabeat-data-analysis-case-study">Customer Behavior Analysis with Fitbit Data</button></h3>
+								<p class="skills">Skills: EDA, Data Cleaning, Visualization, R</p>
 							</article>
-						</div>						
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="#" class="image fit thumb"
+									data-summary-trigger
+									data-title="Exploring IMDB Top 1000 Movies"
+									data-skills="EDA &middot; Data Cleaning &middot; SQL"
+									data-modal-template="tpl-sql"
+									data-link="https://github.com/So017/241016_sql_project_imdb">
+									<img src="images/thumbs/movie_t.png" alt="IMDB Top 1000 Movies analysis thumbnail" />
+								</a>
+								<h3><button type="button" class="work-title-trigger"
+									data-summary-trigger
+									data-title="Exploring IMDB Top 1000 Movies"
+									data-skills="EDA &middot; Data Cleaning &middot; SQL"
+									data-modal-template="tpl-sql"
+									data-link="https://github.com/So017/241016_sql_project_imdb">Exploring IMDB Top 1000 Movies</button></h3>
+								<p class="skills">Skills: EDA, Data Cleaning, SQL</p>
+							</article>
+						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p  style="color: navy;">Have a question, idea, or project in mind? I'm here to help.</p>
+						<p>Have a question, idea, or project in mind? I&rsquo;m here to help.</p>
 						<ul class="actions">
-							<li><a href="mailto:sonia.ds@proton.me" target="_blank" class="button">Email Me</a></li>
+							<li><a href="mailto:sonia.ds@proton.me" target="_blank" class="button primary">Email Me</a></li>
 						</ul>
-						</div>
 					</section>
 
+			</div>
+
+		<!-- Project summary content (Approach / Key Findings / Executive Summary) -->
+			<template id="tpl-nhs">
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Key Findings</h4>
+					<p>NHS Antidepressant Costs Fell 20% Between 2021 and 2023.</p>
+				</div>
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Executive Summary</h4>
+					<p>The analysis uncovered trends in the demand and cost of antidepressants prescribed through the NHS in England, which were largely driven by specific drugs, particularly Sertraline Hydrochloride. Identifying this key driver of both volume and cost supports more informed procurement strategies and cost-control efforts.<br>
+						Additionally, the analysis of seasonal fluctuations and regional cost variations enables public health teams to better forecast demand, allocate resources more efficiently, and identify opportunities to improve pricing consistency across regions.</p>
+				</div>
+			</template>
+
+			<template id="tpl-londonhouse">
+					<div class="modal-section">
+					<h4 class="modal-section-heading">Key Findings</h4>
+					<p>Despite both boroughs sitting within 5 miles of central London, house prices in Kensington &amp; Chelsea are over 205% higher than in Tower Hamlets, even though median salaries in Tower Hamlets (£49k) far exceed those in Kensington &amp; Chelsea (£33k).</p>
+				</div>
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Executive Summary</h4>
+					<p>This Tableau story explores the stark contrast in housing affordability and socioeconomic conditions between London boroughs.<br>
+						Starting with London-wide trends in house prices and transactions from 1999 to 2018, the analysis focuses on a case study of Kensington & Chelsea vs Tower Hamlets, revealing surprising contrasts in price, salary, population growth, life satisfaction, and more, supplemented by external research.<br>
+						The analysis lays a foundation for deeper investigation into factors such as housing types, new developments, vacant properties, resident demographics, and local amenities, offering a compelling direction for future urban studies.</p>
+				</div>
+			</template>
+
+			<template id="tpl-fitbit">
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Key Findings</h4>
+					<p>Leaf can capture the 68% of Fitbit users failing to hit 10,000 daily steps by marketing its discrete, stylish design as the ultimate all-day catalyst for healthier habits.</p>
+				</div>
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Executive Summary</h4>
+					<p>This analysis explores Fitbit smart device usage patterns, aiming to identify trends that could inform Bellabeat’s marketing strategy for its Leaf product. Key findings suggest that 68% of users walked fewer than 10,000 steps per day. However, this figure may be underreported, as heart rate data suggests that some users might have worn the device only during high-intensity activities.<br>
+						These findings suggest an opportunity for Bellabeat to position the Leaf as a stylish and comfortable tracker designed for all-day wear. Pairing this with app features that motivate users to stay active and track progress can help foster healthier habits and increase user engagement.</p>
+				</div>
+			</template>
+
+			<template id="tpl-sql">
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Key Findings</h4>
+					<p>Drama was the most profitable genre of 2019, grossing $1.97 billion at the box office.</p>
+				</div>
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Executive Summary</h4>
+					<p>This SQL project explored trends and insights from the Top 1000 IMDb Movies dataset, using MySQL to clean, structure, and analyze the data. Advanced SQL techniques such as Common Table Expressions (CTEs), window functions, and subqueries were used. <br>
+						The analysis included identifying highest rated titles, top-grossing films, high-performing genres, the most popular directors, most frequent actors, etc. The project also highlighted directors who starred in their own movies and revealed insights into movie trends across decades.</p>
+				</div>
+			</template>
+
+		<!-- Summary pop-up -->
+			<div class="summary-modal" id="summary-modal" aria-hidden="true">
+				<div class="summary-modal-overlay" data-modal-close></div>
+				<div class="summary-modal-content" role="dialog" aria-modal="true" aria-labelledby="summary-modal-title">
+					<button type="button" class="summary-modal-close" data-modal-close aria-label="Close summary">&times;</button>
+					<h3 id="summary-modal-title" class="summary-modal-title"></h3>
+					<p class="summary-modal-skills"></p>
+					<div class="summary-modal-body" id="summary-modal-body"></div>
+					<a href="#" class="button primary summary-modal-link" target="_blank" rel="noopener noreferrer">View Full Analysis</a>
+				</div>
 			</div>
 
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/sonia-sl/" target="_blank" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-						<li><a href="mailto:sonia.ds@proton.me" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://www.kaggle.com/so017c" target="_blank" class="icon brands fa-kaggle"><span class="label">kaggle</span></a></li>
-						<li><a href="https://public.tableau.com/app/profile/s0nia/vizzes" target="_blank" class="icon fa-chart-bar"><span class="label">bar</span></a></li>
-						<br>
+						<li><a href="https://www.linkedin.com/in/sonia-sl/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+						<li><a href="mailto:sonia.ds@proton.me" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.kaggle.com/so017c" target="_blank" rel="noopener noreferrer" class="icon brands fa-kaggle"><span class="label">kaggle</span></a></li>
+						<li><a href="https://public.tableau.com/app/profile/so017/vizzes" target="_blank" rel="noopener noreferrer" class="icon fa-chart-bar"><span class="label">bar</span></a></li>
 						<li>sonia.ds@proton.me</li>
 					</ul>
 				</div>
@@ -100,13 +210,11 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/summary-modal.js"></script>
 
 	</body>
-
 </html>
-
