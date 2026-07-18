@@ -379,3 +379,8 @@ body.modal-open {
 		transform: translateY(0);
 	}
 }
+
+/* Fix: cancel the template's legacy row-gutter offset so cards stay centered */
+.project-grid {
+	margin-left: 0 !important;
+}
