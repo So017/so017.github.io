@@ -55,7 +55,7 @@
 								<a href="#" class="image fit thumb"
 									data-summary-trigger
 									data-title="NHS Antidepressants Analysis"
-									data-skills="EDA &middot; Data Cleaning &middot; Power BI &middot; Python"
+									data-skills="EDA &middot; Data Cleaning &middot; Visualization &middot; Python"
 									data-modal-template="tpl-nhs"
 									data-link="https://www.kaggle.com/code/so017c/nhs-antidepressants-analysis">
 									<img src="images/thumbs/pills_t.png" alt="NHS Antidepressants Analysis thumbnail" />
@@ -66,7 +66,7 @@
 									data-skills="EDA &middot; Data Cleaning &middot; Visualization &middot; Python"
 									data-modal-template="tpl-nhs"
 									data-link="https://www.kaggle.com/code/so017c/nhs-antidepressants-analysis">NHS Antidepressants Analysis</button></h3>
-								<p class="skills">Skills: EDA, Data Cleaning, Power BI, Python</p>
+								<p class="skills">Skills: EDA, Data Cleaning, Visualization, Python</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="#" class="image fit thumb"
@@ -136,50 +136,61 @@
 		<!-- Project summary content (Approach / Key Findings / Executive Summary) -->
 			<template id="tpl-nhs">
 				<div class="modal-section">
+					<h4 class="modal-section-heading">Approach</h4>
+					<p>Using Python (pandas), analysed NHS prescribing data from 2021 to 2024 across antidepressant types and the seven NHS regions in England. Began by exploring overall prescribing trends, costs and regional differences to identify the main drivers. Once Sertraline Hydrochloride emerged as the largest contributor to both prescription volume and cost, narrowed the analysis to examine its seasonal demand, regional unit cost variation and contribution to overall spending.</p>
+				</div>
+				<div class="modal-section">
 					<h4 class="modal-section-heading">Key Findings</h4>
-					<p>NHS Antidepressant Costs Fell 20% Between 2021 and 2023.</p>
+					<p>Sertraline Hydrochloride was the biggest driver of both prescription volume and total cost, while overall antidepressant costs fell by 20% between 2021 and 2023.</p>
 				</div>
 				<div class="modal-section">
 					<h4 class="modal-section-heading">Executive Summary</h4>
-					<p>The analysis uncovered trends in the demand and cost of antidepressants prescribed through the NHS in England, which were largely driven by specific drugs, particularly Sertraline Hydrochloride. Identifying this key driver of both volume and cost supports more informed procurement strategies and cost-control efforts.<br>
-						Additionally, the analysis of seasonal fluctuations and regional cost variations enables public health teams to better forecast demand, allocate resources more efficiently, and identify opportunities to improve pricing consistency across regions.</p>
+					<p>The analysis uncovered trends in the demand and cost of antidepressants prescribed through the NHS in England, which were largely driven by specific drugs, particularly Sertraline Hydrochloride. Identifying this key driver supports more informed procurement strategies and cost control efforts. The analysis also highlights seasonal demand and regional cost variations, helping public health teams improve forecasting, resource allocation and pricing consistency.</p>
 				</div>
 			</template>
 
 			<template id="tpl-londonhouse">
-					<div class="modal-section">
+				<div class="modal-section">
+					<h4 class="modal-section-heading">Approach</h4>
+					<p>Built an interactive Tableau story using housing and socioeconomic data from the London Datastore. Started by exploring London-wide trends in house prices and transactions before drilling down into Kensington & Chelsea and Tower Hamlets as contrasting case studies. Combined housing, income, population and wellbeing data with supporting research to explain the differences observed and provide broader context beyond the visualisations.</p>
+				</div>
+				<div class="modal-section">
 					<h4 class="modal-section-heading">Key Findings</h4>
-					<p>Despite both boroughs sitting within 5 miles of central London, house prices in Kensington &amp; Chelsea are over 205% higher than in Tower Hamlets, even though median salaries in Tower Hamlets (£49k) far exceed those in Kensington &amp; Chelsea (£33k).</p>
+					<p>Despite their close proximity, the average house price in Kensington & Chelsea was more than three times higher than in Tower Hamlets, while Tower Hamlets recorded the highest median salary in London.</p>
 				</div>
 				<div class="modal-section">
 					<h4 class="modal-section-heading">Executive Summary</h4>
-					<p>This Tableau story explores the stark contrast in housing affordability and socioeconomic conditions between London boroughs.<br>
-						Starting with London-wide trends in house prices and transactions from 1999 to 2018, the analysis focuses on a case study of Kensington & Chelsea vs Tower Hamlets, revealing surprising contrasts in price, salary, population growth, life satisfaction, and more, supplemented by external research.<br>
-						The analysis lays a foundation for deeper investigation into factors such as housing types, new developments, vacant properties, resident demographics, and local amenities, offering a compelling direction for future urban studies.</p>
+					<p>This Tableau story explores the contrast in housing affordability and socioeconomic conditions across London boroughs. Starting with London-wide housing trends, it then examines Kensington & Chelsea and Tower Hamlets to reveal surprising differences in house prices, salaries, population growth and life satisfaction. The analysis provides a foundation for further investigation into factors such as housing types, new developments, resident demographics and local amenities.</p>
 				</div>
 			</template>
 
 			<template id="tpl-fitbit">
 				<div class="modal-section">
+					<h4 class="modal-section-heading">Approach</h4>
+					<p>Using R, selected and cleaned the relevant datasets from 18 Fitbit data files, standardising date and time formats before merging activity, sleep and heart rate records. Explored relationships between activity levels, sleep, heart rate and BMI to understand user behaviour. Since device wear time was not recorded, inferred wearing habits by comparing heart rate readings with periods of low or zero recorded activity to validate the findings.</p>
+				</div>
+				<div class="modal-section">
 					<h4 class="modal-section-heading">Key Findings</h4>
-					<p>Leaf can capture the 68% of Fitbit users failing to hit 10,000 daily steps by marketing its discrete, stylish design as the ultimate all-day catalyst for healthier habits.</p>
+					<p>Around 68% of users recorded fewer than 10,000 daily steps. However, heart rate data suggests this may underestimate activity levels because some users appeared to wear their devices only during exercise.</p>
 				</div>
 				<div class="modal-section">
 					<h4 class="modal-section-heading">Executive Summary</h4>
-					<p>This analysis explores Fitbit smart device usage patterns, aiming to identify trends that could inform Bellabeat’s marketing strategy for its Leaf product. Key findings suggest that 68% of users walked fewer than 10,000 steps per day. However, this figure may be underreported, as heart rate data suggests that some users might have worn the device only during high-intensity activities.<br>
-						These findings suggest an opportunity for Bellabeat to position the Leaf as a stylish and comfortable tracker designed for all-day wear. Pairing this with app features that motivate users to stay active and track progress can help foster healthier habits and increase user engagement.</p>
+					<p>This analysis explores Fitbit smart device usage patterns to identify insights that could support Bellabeat's marketing strategy for its Leaf product. The findings suggest that many users may not wear their devices throughout the day, creating opportunities to promote the Leaf as a stylish and comfortable tracker designed for all-day wear. Pairing this with app features that encourage daily activity and progress tracking could help improve user engagement and support healthier habits.</p>
 				</div>
 			</template>
 
 			<template id="tpl-sql">
 				<div class="modal-section">
+					<h4 class="modal-section-heading">Approach</h4>
+					<p>Using MySQL, cleaned and prepared the IMDb Top 1000 Movies dataset before exploring it through a series of analytical questions. Applied SQL techniques including Common Table Expressions (CTEs), window functions, subqueries, aggregation functions and string manipulation to examine movie ratings, box office revenue, directors, actors, genres and trends across different decades.</p>
+				</div>
+				<div class="modal-section">
 					<h4 class="modal-section-heading">Key Findings</h4>
-					<p>Drama was the most profitable genre of 2019, grossing $1.97 billion at the box office.</p>
+					<p>Drama was the highest-grossing genre among films released in 2019, generating a combined box office revenue of $1.97 billion. Christopher Nolan was the most popular director by audience votes, while Alfred Hitchcock had the most films in the dataset.</p>
 				</div>
 				<div class="modal-section">
 					<h4 class="modal-section-heading">Executive Summary</h4>
-					<p>This SQL project explored trends and insights from the Top 1000 IMDb Movies dataset, using MySQL to clean, structure, and analyze the data. Advanced SQL techniques such as Common Table Expressions (CTEs), window functions, and subqueries were used. <br>
-						The analysis included identifying highest rated titles, top-grossing films, high-performing genres, the most popular directors, most frequent actors, etc. The project also highlighted directors who starred in their own movies and revealed insights into movie trends across decades.</p>
+					<p>This project showcases practical SQL skills through exploratory analysis of the IMDb Top 1000 Movies dataset. By answering a series of analytical questions, it demonstrates the use of advanced SQL techniques to clean, transform and extract insights from real-world data.</p>
 				</div>
 			</template>
 
